@@ -2,6 +2,7 @@
 title: "Hello World"
 date: 2026-05-22
 draft: false
+categories: ["炒蒜"]
 tags: ["随笔"]
 summary: "第一篇博客文章"
 ---

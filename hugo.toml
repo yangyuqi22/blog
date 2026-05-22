@@ -5,6 +5,10 @@ title = "Yuqing's Blog"
 theme = "PaperMod"
 paginate = 10
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [params]
   env = "production"
   defaultTheme = "auto"
@@ -25,20 +29,35 @@ paginate = 10
 
 [menu]
   [[menu.main]]
+    identifier = "chaosuan"
+    name = "炒蒜"
+    url = "/categories/炒蒜/"
+    weight = 10
+  [[menu.main]]
+    identifier = "research"
+    name = "科研"
+    url = "/categories/科研/"
+    weight = 20
+  [[menu.main]]
+    identifier = "quotes"
+    name = "非名人名言"
+    url = "/categories/非名人名言/"
+    weight = 30
+  [[menu.main]]
+    identifier = "echappee"
+    name = "L'Échappée"
+    url = "/categories/lechappee/"
+    weight = 40
+  [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"
-    weight = 10
-  [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
-    weight = 20
+    weight = 50
   [[menu.main]]
     identifier = "search"
     name = "搜索"
     url = "/search/"
-    weight = 30
+    weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
